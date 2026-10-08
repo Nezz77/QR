@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		430BF06B157F1F8B50BE4FB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA457813FFB0E96B26A6A038 /* ContentView.swift */; };
-		8447EA2EA9FD3C27D695C1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */; };
 		86403F9DF7C51CBBCD0100E6 /* QRGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45E4B968DBFD1C6668A6DD /* QRGeneratorApp.swift */; };
 		86AB9CEE1E84A8762951551E /* QRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905EA757358E0FA40A4B6C3 /* QRCodeManager.swift */; };
+		A81A0C2006694764D41FE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8C1C4CE12394FA375BFFE2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E45E4B968DBFD1C6668A6DD /* QRGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGeneratorApp.swift; sourceTree = "<group>"; };
 		9AC3F5895200A09A8A4529F4 /* QRGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3482346982C42E884E29D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB8C1C4CE12394FA375BFFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D905EA757358E0FA40A4B6C3 /* QRCodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeManager.swift; sourceTree = "<group>"; };
 		EA457813FFB0E96B26A6A038 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,7 +26,7 @@
 		27E62C29E6C0B93361B79CF5 /* QRGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */,
+				BB8C1C4CE12394FA375BFFE2 /* Assets.xcassets */,
 				EA457813FFB0E96B26A6A038 /* ContentView.swift */,
 				A3482346982C42E884E29D45 /* Info.plist */,
 				D905EA757358E0FA40A4B6C3 /* QRCodeManager.swift */,
@@ -46,7 +46,6 @@
 		D53C2582D2AD6595B6926420 = {
 			isa = PBXGroup;
 			children = (
-				B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */,
 				27E62C29E6C0B93361B79CF5 /* QRGenerator */,
 				CB16AE81F2D126A5B6ADF2B9 /* Products */,
 			);
@@ -80,7 +79,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					31C1EA4625477935877F9277 = {
 						ProvisioningStyle = Automatic;
@@ -111,7 +110,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8447EA2EA9FD3C27D695C1A1 /* Assets.xcassets in Resources */,
+				A81A0C2006694764D41FE8E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +141,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.futuretech.QRGenerator;
 				SDKROOT = macosx;
 			};
@@ -159,7 +158,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.futuretech.QRGenerator;
 				SDKROOT = macosx;
 			};
@@ -219,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -280,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
