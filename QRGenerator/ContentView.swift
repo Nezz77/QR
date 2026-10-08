@@ -60,9 +60,6 @@ struct ContentView: View {
 
     private var inputField: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Label("Content", systemImage: "text.cursor")
-                .font(.system(size: 11, weight: .semibold))
-                .foregroundStyle(.secondary)
             TextEditor(text: $manager.inputText)
                 .font(.system(size: 13, design: .monospaced))
                 .frame(height: 90)
