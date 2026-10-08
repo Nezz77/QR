@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		430BF06B157F1F8B50BE4FB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA457813FFB0E96B26A6A038 /* ContentView.swift */; };
+		8447EA2EA9FD3C27D695C1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */; };
 		86403F9DF7C51CBBCD0100E6 /* QRGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45E4B968DBFD1C6668A6DD /* QRGeneratorApp.swift */; };
 		86AB9CEE1E84A8762951551E /* QRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905EA757358E0FA40A4B6C3 /* QRCodeManager.swift */; };
 /* End PBXBuildFile section */
@@ -16,6 +17,7 @@
 		4E45E4B968DBFD1C6668A6DD /* QRGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGeneratorApp.swift; sourceTree = "<group>"; };
 		9AC3F5895200A09A8A4529F4 /* QRGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3482346982C42E884E29D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D905EA757358E0FA40A4B6C3 /* QRCodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeManager.swift; sourceTree = "<group>"; };
 		EA457813FFB0E96B26A6A038 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -24,6 +26,7 @@
 		27E62C29E6C0B93361B79CF5 /* QRGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */,
 				EA457813FFB0E96B26A6A038 /* ContentView.swift */,
 				A3482346982C42E884E29D45 /* Info.plist */,
 				D905EA757358E0FA40A4B6C3 /* QRCodeManager.swift */,
@@ -43,6 +46,7 @@
 		D53C2582D2AD6595B6926420 = {
 			isa = PBXGroup;
 			children = (
+				B765EB0D5C5AEA7B600C16AF /* Assets.xcassets */,
 				27E62C29E6C0B93361B79CF5 /* QRGenerator */,
 				CB16AE81F2D126A5B6ADF2B9 /* Products */,
 			);
@@ -56,6 +60,7 @@
 			buildConfigurationList = EB7A2465C62C1B93193117B8 /* Build configuration list for PBXNativeTarget "QRGenerator" */;
 			buildPhases = (
 				6E748A4E816548435F900DB2 /* Sources */,
+				D90B67EB4ADEF6C67092789C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +105,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90B67EB4ADEF6C67092789C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447EA2EA9FD3C27D695C1A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E748A4E816548435F900DB2 /* Sources */ = {

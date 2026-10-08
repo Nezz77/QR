@@ -24,6 +24,8 @@ targets:
     sources:
       - path: QRGenerator
         type: group
+      - path: QRGenerator/Assets.xcassets
+        type: folder
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.futuretech.QRGenerator
