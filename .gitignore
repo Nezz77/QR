@@ -1,0 +1,48 @@
+# Xcode build artifacts
+build/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# XcodeGen derived output — regenerate with `xcodegen generate`
+# (we commit the .xcodeproj intentionally for convenience)
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+*.resolved
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# CocoaPods (not used, but included as safety net)
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# DMG output
+*.dmg
+
+# Env / secrets
+.env
+*.p12
+*.mobileprovision
