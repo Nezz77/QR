@@ -229,6 +229,7 @@ struct PanelCard<Content: View>: View {
                         .foregroundStyle(.tertiary)
                         .rotationEffect(.degrees(isExpanded ? 90 : 0))
                 }
+                .frame(maxWidth: .infinity)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 10)
                 .contentShape(Rectangle())
@@ -265,6 +266,7 @@ struct GlassButton: View {
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 8)
+            .contentShape(Rectangle())
             .background(RoundedRectangle(cornerRadius: 8).fill(accent.opacity(isHovered ? 0.22 : 0.12)))
             .overlay(RoundedRectangle(cornerRadius: 8).strokeBorder(accent.opacity(0.3), lineWidth: 1))
             .foregroundStyle(accent.opacity(disabled ? 0.3 : 1.0))
