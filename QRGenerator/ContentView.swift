@@ -269,7 +269,7 @@ struct GlassButton: View {
             .padding(.vertical, 8)
             .background(RoundedRectangle(cornerRadius: 8).fill(accent.opacity(isHovered ? 0.22 : 0.12)))
             .overlay(RoundedRectangle(cornerRadius: 8).strokeBorder(accent.opacity(0.3), lineWidth: 1))
-            .foregroundStyle(disabled ? .tertiary : accent)
+            .foregroundStyle(accent.opacity(disabled ? 0.3 : 1.0))
             .scaleEffect(isHovered && !disabled ? 1.02 : 1.0)
         }
         .buttonStyle(.plain)
