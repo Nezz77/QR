@@ -12,7 +12,7 @@ A **premium, native macOS QR Code Generator** built with SwiftUI and CoreImage. 
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Detail |
 |---|---|
@@ -29,7 +29,7 @@ A **premium, native macOS QR Code Generator** built with SwiftUI and CoreImage. 
 
 ---
 
-## 🖥 Screenshots
+## Screenshots
 
 > _Open the project in Xcode, run it, and it will look like this:_
 
@@ -54,7 +54,7 @@ A **premium, native macOS QR Code Generator** built with SwiftUI and CoreImage. 
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 QRGenerator/
@@ -76,7 +76,7 @@ QRGenerator/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -117,7 +117,7 @@ Press **⌘R** in Xcode to build and run.
 
 ---
 
-## 📦 Packaging a DMG
+## Packaging a DMG
 
 ### Step 1 — Build a Release archive
 
@@ -162,7 +162,7 @@ create-dmg \
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -178,12 +178,12 @@ create-dmg \
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
 
 ---
 
 <p align="center">
-  Developed with ♥ by <strong>Futuretech | NH</strong>
+  Developed by <strong>Futuretech | NH</strong>
 </p>
