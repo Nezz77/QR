@@ -82,9 +82,30 @@ QRGenerator/
 
 | Tool | Version |
 |---|---|
-| macOS | 13.0 Ventura or later |
-| Xcode | 15.0 or later |
+| macOS | **14.0 Sonoma or later** |
+| Xcode | 16.0 or later |
 | XcodeGen | 2.40+ (for project regeneration) |
+
+### 🖥 Mac Compatibility
+
+Requires **macOS 14 Sonoma** or later. The following Mac models are supported:
+
+| Mac Family | Minimum Supported Model |
+|---|---|
+| **MacBook Air** | MacBook Air (M1, 2020) or later |
+| **MacBook Pro** | MacBook Pro (14-inch / 16-inch, 2021) or later · MacBook Pro (13-inch, M1, 2020) or later |
+| **iMac** | iMac (24-inch, M1, 2021) or later |
+| **iMac Pro** | iMac Pro (2017) ✅ |
+| **Mac mini** | Mac mini (M1, 2020) or later |
+| **Mac Studio** | Mac Studio (M1 Max, 2022) or later |
+| **Mac Pro** | Mac Pro (2019, Intel) or later · Mac Pro (M2 Ultra, 2023) |
+
+> [!NOTE]
+> All **Apple Silicon** Macs (M1, M2, M3, M4 and later) are fully compatible.
+> Intel Macs must be on the models listed above to run macOS 14 Sonoma.
+
+> [!TIP]
+> Not sure if your Mac is compatible? Go to **Apple menu → About This Mac** and check your macOS version. If it shows Sonoma (14.x) or later, you're good to go.
 
 ### 1. Clone the repo
 
